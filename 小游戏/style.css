@@ -1,0 +1,353 @@
+body{
+
+    background:#f3efe6;
+
+    font-family:
+    "Microsoft YaHei",sans-serif;
+
+    text-align:center;
+
+}
+
+
+#game{
+
+    width:700px;
+
+    margin:50px auto;
+
+    background:#fff3d6;
+
+    border:2px solid #b8864b;
+
+    padding:30px;
+
+    border-radius:20px;
+
+}
+
+.status{
+
+display:flex;
+
+justify-content:center;
+
+gap:50px;
+
+font-size:25px;
+
+margin-bottom:30px;
+
+}
+
+#eventBox{
+
+background:#fff3cd;
+
+padding:15px;
+
+border-radius:15px;
+
+margin:20px;
+
+}
+
+button:hover{
+
+transform:scale(1.05);
+
+}
+#eventChoice{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+}
+
+
+#eventChoice button{
+
+
+    width:220px;
+
+    height:150px;
+
+
+    background:white;
+
+    border-radius:20px;
+
+
+    border:2px solid #ddd;
+
+
+    cursor:pointer;
+
+
+    transition:0.2s;
+
+
+}
+
+
+#eventChoice button:hover{
+
+
+    transform:translateY(-10px);
+
+
+}
+
+
+
+.eventName{
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    margin-bottom:20px;
+
+}
+
+
+.eventDesc{
+
+    font-size:16px;
+
+}
+.shopBox{
+
+    margin:30px auto;
+
+    padding:20px;
+
+    width:80%;
+
+    background:white;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+#shop{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+
+#shop button{
+
+    width:160px;
+    height:130px;
+
+    border-radius:20px;
+
+    background:white;
+
+    border:2px solid #ddd;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+}
+
+
+#shop button:hover{
+
+    transform:translateY(-5px);
+
+}
+
+
+.itemName{
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    margin-bottom:10px;
+
+}
+#nextButton{
+
+    margin-top:30px;
+
+    width:220px;
+
+    height:60px;
+
+    border-radius:30px;
+
+    border:none;
+
+    background:white;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+}
+
+
+#nextButton:hover{
+
+    transform:scale(1.05);
+
+}
+#eventChoice button{
+
+background:#fffaf0;
+
+border:2px solid #d8c3a5;
+
+}
+.titleBox{
+
+background:linear-gradient(
+90deg,
+#5c3a21,
+#8b5a2b
+);
+
+color:white;
+
+padding:20px;
+
+border-radius:20px;
+
+margin-bottom:30px;
+
+}
+.eventBox{
+
+background:#fff3cd;
+
+border-radius:15px;
+
+padding:15px;
+
+}
+button{
+
+transition:0.2s;
+
+}
+
+
+button:hover{
+
+transform:translateY(-8px);
+
+box-shadow:
+0 10px 20px rgba(0,0,0,0.15);
+
+}
+body{
+
+background:
+linear-gradient(
+135deg,
+#f5e6c8,
+#e8d2a8
+);
+
+}
+
+body{
+
+background-color:#f3ead3;
+
+background-image:
+radial-gradient(
+#d8c7a0 1px,
+transparent 1px
+);
+
+background-size:20px 20px;
+
+}
+body{
+
+    margin:0;
+
+    min-height:100vh;
+
+    background-image:
+    url("bg.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-attachment:fixed;
+
+    font-family:"Microsoft YaHei",sans-serif;
+
+}
+.game{
+
+    width:80%;
+
+    margin:40px auto;
+
+    padding:30px;
+
+
+    background:
+    rgba(255,255,255,0.85);
+
+
+    border-radius:30px;
+
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.3);
+
+}
+#nextButton{
+
+background:#c9973e;
+
+color:white;
+
+border-radius:30px;
+
+font-weight:bold;
+
+}
+.status{
+
+background:#fff3d6;
+
+padding:15px 40px;
+
+border-radius:20px;
+
+border:2px solid #d6aa5c;
+
+}
+body::before{
+
+content:"";
+
+position:fixed;
+
+inset:0;
+
+background:
+rgba(0,0,0,0.25);
+
+z-index:-1;
+
+}
